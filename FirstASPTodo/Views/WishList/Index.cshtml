@@ -1,0 +1,66 @@
+﻿
+
+@model WishList
+@{
+    ViewData["Title"] = "Index";
+}
+@if (TempData["success"] != null)
+{
+    <h2>@TempData["success"]</h2>
+}
+
+<h2 class="text-primary"> Wish List</h2>
+
+<div class="c-table" style="display: flex; flex-direction: row;  ">
+    <div style="padding-top:50px; padding-right: 30px">
+
+        <img src="~/images/yslbag.jpg" />
+        <div class="text-primary">
+            Selfridges
+        </div>
+        <div>
+            <p>Saint Laurent <br />Monogram leather wallet-on-chain</p>
+            <p style="color:orangered">£850.00</p>
+        </div>
+    </div>
+    <div style="padding-top: 50px; padding-right: 30px">
+
+        <img src="~/images/JacBag.jpg" />
+        <div class="text-primary">
+            Selfridges
+        </div>
+        <div>
+            <p>Jacquemus <br />Le grand Chiquito leather bag</p>
+            <p style="color:orangered">£580.00</p>
+        </div>
+    </div>
+
+    <div style="padding-top: 50px; padding-right: 30px">
+
+        <img src="~/images/coachbag.jpg" />
+        <div class="text-primary">
+            Selfridges
+        </div>
+        <div>
+            <p>Coach <br />Studio croc-embossed leather cross-body bag</p>
+            <p style="color:orangered">£495.00</p>
+        </div>
+    </div>
+    <div style="padding-top: 50px; padding-right: 30px">
+
+        <img src="~/images/chloe.jpg" />
+        <div class="text-primary">
+            Selfridges
+        </div>
+        <div>
+            <p>
+                Chloe <br />Woody large canvas/leather bag
+            </p>
+            <p style="color:orangered">£790.00</p>
+        </div>
+    </div>
+</div>
+
+
+
+
